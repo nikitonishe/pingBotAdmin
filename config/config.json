@@ -1,0 +1,12 @@
+﻿{
+	"port": 3000,
+	"mongodb": {
+		"uri": "mongodb://127.0.0.1:27017/pingBotAdmin"
+	},
+	"session": {
+		"secret": "i never asked for this",
+		"cookie": {
+			"maxAge": 60000
+		}
+	}
+}
