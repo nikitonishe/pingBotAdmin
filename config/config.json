@@ -6,7 +6,8 @@
 	"session": {
 		"secret": "i never asked for this",
 		"cookie": {
-			"maxAge": 60000
+			"maxAge": 60000000
 		}
-	}
+	},
+	"textsPath": "C://projects/js/pingBot/texts.json"
 }

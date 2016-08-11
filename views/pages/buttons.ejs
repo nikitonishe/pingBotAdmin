@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<% include ../partials/head %>
+<body>
+	<% include ../partials/navigation %>
+	<div id = "buttons">
+		<form action = '/buttons' method = "post">
+			<input id = "removeButton" type = "text" name = "removeButton" value = "<%= texts.removeButton %>" />
+			<input id = "openButton" type = "text" name = "openButton" value = "<%= texts.openButton %>" />
+			<input id = "addSiteButton" type = "text" name = "addSiteButton" value = "<%= texts.addSiteButton %>" />
+			<input id = "favoritesButton" type = "text" name = "favoritesButton" value = "<%= texts.favoritesButton %>" />
+			<input id = "cancelButton" type = "text" name = "cancelButton" value = "<%= texts.cancelButton %>" />
+			<input id = "restoreButton" type = "text" name = "restoreButton" value = "<%= texts.restoreButton %>" />
+			<input id = "save" type = "submit" value = "Сохранить" />
+		</form>
+	</div>
+</body>
+</html>
